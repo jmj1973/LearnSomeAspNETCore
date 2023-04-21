@@ -19,3 +19,4 @@ Route data and query string values are used only for simple types
 Reference
 https://www.tutorialsteacher.com/mvc/model-binding-in-asp.net-mvc
 https://learn.microsoft.com/en-us/aspnet/core/mvc/models/model-binding?view=aspnetcore-7.0
+https://www.tutorialsteacher.com/webapi/parameter-binding-in-web-api
