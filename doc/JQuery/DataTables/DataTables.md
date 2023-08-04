@@ -1,4 +1,4 @@
-[Back](doc/README.md)
+[Back](README.md)
 
 ## Steps
 
@@ -12,4 +12,4 @@
 
 
 
-[Back](doc/README.md)
+[Back](README.md)
