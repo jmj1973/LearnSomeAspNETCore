@@ -1,3 +1,5 @@
+[Back](doc/README.md)
+
 ## Steps
 
  1. Setup project
@@ -6,3 +8,8 @@
     dotnet new mvc -f net6.0 -n DataTables -o src/JQuery/DataTables
     dotnet sln add src/JQuery/DataTables.csproj
     ```        
+
+
+
+
+[Back](doc/README.md)
