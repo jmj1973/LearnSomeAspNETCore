@@ -3,7 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTables", "src\JQuery\DataTables\DataTables.csproj", "{F54D4DB7-F91F-4B14-A9A8-A0D2C0B1B41F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTables", "src\JQuery\DataTables\DataTables.csproj", "{F54D4DB7-F91F-4B14-A9A8-A0D2C0B1B41F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5DA151E2-15F7-44BA-97B4-E048F6B7F2E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JQuery", "JQuery", "{9E0812E9-42D1-4A58-93F3-3481E048FD57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D7E53458-75E2-42EB-89F7-77700DC48EB5}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B146DA89-71FF-47F4-B47E-8CCE1341E963}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JQuery", "JQuery", "{D6FF397B-9B09-4C27-B029-85679EAACF92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataTables", "DataTables", "{E6DC2465-AA60-4B33-A3F4-9AFBAD3F7EF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +35,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F54D4DB7-F91F-4B14-A9A8-A0D2C0B1B41F} = {9E0812E9-42D1-4A58-93F3-3481E048FD57}
+		{9E0812E9-42D1-4A58-93F3-3481E048FD57} = {5DA151E2-15F7-44BA-97B4-E048F6B7F2E7}
+		{D6FF397B-9B09-4C27-B029-85679EAACF92} = {D7E53458-75E2-42EB-89F7-77700DC48EB5}
+		{E6DC2465-AA60-4B33-A3F4-9AFBAD3F7EF8} = {D6FF397B-9B09-4C27-B029-85679EAACF92}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {74A532E5-1DD0-4640-B20D-3FDA47DD24A5}
