@@ -20,10 +20,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JQuery", "JQuery", "{D6FF39
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataTables", "DataTables", "{E6DC2465-AA60-4B33-A3F4-9AFBAD3F7EF8}"
 	ProjectSection(SolutionItems) = preProject
-		doc\JQuery\DataTables\DataTables.md = doc\JQuery\DataTables\DataTables.md
+		doc\JQuery\DataTables\DATATABLES.md = doc\JQuery\DataTables\DATATABLES.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTables", "src\JQuery\DataTables\DataTables.csproj", "{DC4EB75B-2984-42E6-B51B-5E94FEA42EA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTables", "src\JQuery\DataTables\DataTables.csproj", "{DC4EB75B-2984-42E6-B51B-5E94FEA42EA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
