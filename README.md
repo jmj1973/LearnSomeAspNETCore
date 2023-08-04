@@ -11,9 +11,23 @@
 ## Running the code
  Check the gode out
  Open in Visual Studio
- Change appsettings.json to your SQL/SQLExpress DB
+
+## Steps
+
+ 1. Create a blank soloution
+    - Folder structure: src and tests
+    ```
+    dotnet new sln -o LearnSomeAspNETCore
+    cd 
+    mkdir doc
+    mkdir src
+    mkdir test
+    ```    
 
 
+## JQuery
+### DataTables
+[DataTables](doc/JQuery/DataTables/DataTables.md)
 
 
 

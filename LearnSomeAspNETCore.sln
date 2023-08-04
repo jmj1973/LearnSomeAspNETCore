@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTables", "src\JQuery\DataTables\DataTables.csproj", "{F54D4DB7-F91F-4B14-A9A8-A0D2C0B1B41F}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5DA151E2-15F7-44BA-97B4-E048F6B7F2E7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JQuery", "JQuery", "{9E0812E9-42D1-4A58-93F3-3481E048FD57}"
@@ -21,6 +19,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JQuery", "JQuery", "{D6FF397B-9B09-4C27-B029-85679EAACF92}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataTables", "DataTables", "{E6DC2465-AA60-4B33-A3F4-9AFBAD3F7EF8}"
+	ProjectSection(SolutionItems) = preProject
+		doc\JQuery\DataTables\DataTables.md = doc\JQuery\DataTables\DataTables.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTables", "src\JQuery\DataTables\DataTables.csproj", "{DC4EB75B-2984-42E6-B51B-5E94FEA42EA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,19 +31,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F54D4DB7-F91F-4B14-A9A8-A0D2C0B1B41F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F54D4DB7-F91F-4B14-A9A8-A0D2C0B1B41F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F54D4DB7-F91F-4B14-A9A8-A0D2C0B1B41F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F54D4DB7-F91F-4B14-A9A8-A0D2C0B1B41F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC4EB75B-2984-42E6-B51B-5E94FEA42EA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC4EB75B-2984-42E6-B51B-5E94FEA42EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC4EB75B-2984-42E6-B51B-5E94FEA42EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC4EB75B-2984-42E6-B51B-5E94FEA42EA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{F54D4DB7-F91F-4B14-A9A8-A0D2C0B1B41F} = {9E0812E9-42D1-4A58-93F3-3481E048FD57}
 		{9E0812E9-42D1-4A58-93F3-3481E048FD57} = {5DA151E2-15F7-44BA-97B4-E048F6B7F2E7}
 		{D6FF397B-9B09-4C27-B029-85679EAACF92} = {D7E53458-75E2-42EB-89F7-77700DC48EB5}
 		{E6DC2465-AA60-4B33-A3F4-9AFBAD3F7EF8} = {D6FF397B-9B09-4C27-B029-85679EAACF92}
+		{DC4EB75B-2984-42E6-B51B-5E94FEA42EA6} = {9E0812E9-42D1-4A58-93F3-3481E048FD57}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {74A532E5-1DD0-4640-B20D-3FDA47DD24A5}

@@ -252,14 +252,6 @@ paket-files/
 *.sln.iml
 
 # LicenseServer
-src/eCost.LicenseServer.Web/Logs/*
-src/eCost.LicenseServer.Web.Host/Logs/*
-src/eCost.LicenseServer.IdentityServer/Logs/*
-src/eCost.LicenseServer.HttpApi.Host/Logs/*
-src/eCost.LicenseServer.HttpApi.HostWithIds/Logs/*
-src/eCost.LicenseServer.DbMigrator/Logs/*
-src/eCost.LicenseServer.Blazor.Server/Logs/*
-src/eCost.LicenseServer.Blazor.Server.Tiered/Logs/*
 
 # Use abp install-libs to restore.
 **/wwwroot/libs/*
