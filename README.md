@@ -30,5 +30,5 @@
 
 
 # Blazor
-### Components
+[Components](doc/Blazor/Components/COMPONETS.md)
 
