@@ -1,17 +1,18 @@
 ﻿@page "/counter"
 
-<PageTitle>Counter</PageTitle>
+@using Components.Pages.counter
 
-<MudText Typo="Typo.h3" GutterBottom="true">Counter</MudText>
-<MudText Class="mb-4">Current count: @currentCount</MudText>
-<MudButton Color="Color.Primary" Variant="Variant.Filled" @onclick="IncrementCount">Click me</MudButton>
+Last multiple of three = @LastMultipleOfThree
+
+<MyCounter OnMultipleOfThree=@UpdateLastMultipleOfThreeValue />
 
 
-@code {
-    private int currentCount = 0;
+@code {    
 
-    private void IncrementCount()
+    int LastMultipleOfThree = 0;
+
+    private void UpdateLastMultipleOfThreeValue(int value)
     {
-        currentCount++;
+        LastMultipleOfThree = value;
     }
 }
