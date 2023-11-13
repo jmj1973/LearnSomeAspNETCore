@@ -10,6 +10,10 @@
     ```        
 
 
+Get the necessary Javascript libraries
+Add the necessary Scrips to the _Layout via partial view
+
+
 
 
 [Back](../../../README.md)

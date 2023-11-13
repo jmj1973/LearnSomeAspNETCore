@@ -30,3 +30,6 @@
 [DataTables](doc/JQuery/DataTables/DATATABLES.md)
 
 
+# Blazor
+### Components
+
