@@ -26,7 +26,6 @@
 
 
 ## JQuery
-### DataTables
 [DataTables](doc/JQuery/DataTables/DATATABLES.md)
 
 
