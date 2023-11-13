@@ -6,7 +6,7 @@
  Version 1.74.3
 
 ## .Net 6.0
- Microsoft .NET SDK 6.0.405
+ Microsoft .NET SDK 6.0.416
 
 ## Running the code
  Check the gode out
@@ -29,6 +29,6 @@
 [DataTables](doc/JQuery/DataTables/DATATABLES.md)
 
 
-# Blazor
+## Blazor
 [Components](doc/Blazor/Components/COMPONETS.md)
 
