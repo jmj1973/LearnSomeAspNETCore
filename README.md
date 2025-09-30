@@ -1,12 +1,12 @@
 # Learn Some Asp NET Core
- Use Visual Studio Code and .Net 6.0
+ Use Visual Studio Code and .Net 9.0
 
 ## Visual Studio Code
  Microsoft Visual Studio Code (64-bit) - Current
- Version 1.74.3
+ Version 1.104.2
 
 ## .Net 6.0
- Microsoft .NET SDK 6.0.416
+ Microsoft .NET SDK 9.0.305
 
 ## Running the code
  Check the gode out
