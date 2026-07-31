@@ -3,7 +3,7 @@
 ## Steps
 
  1. Setup project
-    ASP.NET Core Web App (Blazor Server) .NET 6.0
+    ASP.NET Core Web App (Blazor Server) .NET 10.0
     ```
     dotnet new install MudBlazor.Templates
     dotnet new mudblazor --host server -n Components -o src/Blazor/Components
