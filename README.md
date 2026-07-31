@@ -6,7 +6,7 @@
  Version 1.104.2
 
 ## .Net 6.0
- Microsoft .NET SDK 10.0.*305*
+ Microsoft .NET SDK 10.0.*
 
 ## Running the code
  Check the gode out
@@ -28,7 +28,9 @@
 ## JQuery
 [DataTables](doc/JQuery/DataTables/DATATABLES.md)
 
-
 ## Blazor
 [Components](doc/Blazor/Components/COMPONETS.md)
+
+## Bazor PDF in MudBalzor
+[MudBlazorMudPdfViewer](doc/Blazor/MudBlazorMudPdfViewer/MUDBLAZORMUDPDFVIEWER.md)
 
