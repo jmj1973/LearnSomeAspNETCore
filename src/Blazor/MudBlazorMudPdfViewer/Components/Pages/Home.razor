@@ -1,10 +1,15 @@
 ﻿@page "/"
+@using Gotho.BlazorPdf
 
 <PageTitle>Home</PageTitle>
 
 
 <br />
-<MudPdfViewer Url="https://localhost:7225/download/Test.pdf" />
+<MudPdfViewer Url="https://localhost:7225/download/Test.pdf"       
+    HideDropdownMenu="true"
+    PrintButtonLocation="PdfMenuItemLocation.Toolbar"
+    FindButtonLocation="PdfMenuItemLocation.None"
+    DownloadButtonLocation="PdfMenuItemLocation.Toolbar" />
 
 
 @* <MudPdfViewer @ref="_pdfViewer" />
