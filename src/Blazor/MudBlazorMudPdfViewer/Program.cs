@@ -14,6 +14,8 @@ builder.Services.AddRazorComponents()
 
 builder.Services.AddEndpoints(Assembly.GetExecutingAssembly());
 
+builder.Services.AddBlazorPdfViewer();
+
 var app = builder.Build();
 
 app.MapEndpoints();
@@ -28,7 +30,6 @@ if (!app.Environment.IsDevelopment())
 app.UseStatusCodePagesWithReExecute("/not-found", createScopeForStatusCodePages: true);
 
 app.UseHttpsRedirection();
-
 
 app.UseAntiforgery();
 

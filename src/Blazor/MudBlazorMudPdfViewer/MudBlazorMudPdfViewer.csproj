@@ -9,6 +9,7 @@
 
 
   <ItemGroup>
+    <PackageReference Include="Gotho.BlazorPdf.MudBlazor" Version="2.2.0" />
     <PackageReference Include="MudBlazor" Version="9.*" />
   </ItemGroup>
 
