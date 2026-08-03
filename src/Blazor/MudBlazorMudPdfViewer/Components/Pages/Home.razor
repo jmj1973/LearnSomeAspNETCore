@@ -4,12 +4,20 @@
 <PageTitle>Home</PageTitle>
 
 
+@* <br />
+<MudPdfViewer @ref="_pdfViewer"
+              HideDropdownMenu="true"
+              PrintButtonLocation="PdfMenuItemLocation.Toolbar"
+              FindButtonLocation="PdfMenuItemLocation.None"
+              DownloadButtonLocation="PdfMenuItemLocation.Toolbar" />
+ *@
+
 <br />
-<MudPdfViewer Url="https://localhost:7225/download/Test.pdf"       
-    HideDropdownMenu="true"
-    PrintButtonLocation="PdfMenuItemLocation.Toolbar"
-    FindButtonLocation="PdfMenuItemLocation.None"
-    DownloadButtonLocation="PdfMenuItemLocation.Toolbar" />
+<MudPdfViewer Url=@_pdfUrl
+              HideDropdownMenu="true"
+              PrintButtonLocation="PdfMenuItemLocation.Toolbar"
+              FindButtonLocation="PdfMenuItemLocation.None"
+              DownloadButtonLocation="PdfMenuItemLocation.Toolbar" />
 
 
 @* <MudPdfViewer @ref="_pdfViewer" />
@@ -17,16 +25,23 @@
  *@
 
 <br />
-<MudPdfViewer Url="https://raw.githubusercontent.com/mozilla/pdf.js/ba2edeae/web/compressed.tracemonkey-pldi-09.pdf" />
+<MudPdfViewer Url=@_pdfUrl2 />
 
 @code {
 
     public required MudPdfViewer _pdfViewer { get; set; } = new();
 
+    private string _pdfUrl = default;
+
+    private string _pdfUrl2 = "https://raw.githubusercontent.com/mozilla/pdf.js/ba2edeae/web/compressed.tracemonkey-pldi-09.pdf";
 
     protected override async Task OnInitializedAsync()
     {
         await base.OnInitializedAsync();
+
+        _pdfUrl = $"https://localhost:7225/download/Test.pdf";
+
+       
     }
 
     protected async override Task OnParametersSetAsync()
@@ -41,7 +56,7 @@
 
         string base64String = Convert.ToBase64String(File.ReadAllBytes(filePath));
 
-        await _pdfViewer.LoadPdfAsync(base64String, "PDF Document Filename");
+        await _pdfViewer.LoadPdfAsync(base64String, "Test.pdf");
     }
 
 
