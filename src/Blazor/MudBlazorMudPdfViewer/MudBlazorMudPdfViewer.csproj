@@ -11,4 +11,16 @@
   <ItemGroup>
     <PackageReference Include="MudBlazor" Version="9.*" />
   </ItemGroup>
+
+
+  <ItemGroup>
+    <Folder Include="wwwroot\filestore\" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Content Update="wwwroot\filestore\Test.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
 </Project>
