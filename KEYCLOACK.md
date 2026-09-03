@@ -45,7 +45,61 @@ https://phasetwo.io/blog/multi-tenancy-with-keycloak-organizations/
 https://github.com/p2-inc/keycloak-orgs
 
 
+
+
+
 https://nikiforovall.blog/keycloak-authorization-services-dotnet/introduction.html
+
+https://github.com/nikiforovall/keycloak-authorization-services-dotnet
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
