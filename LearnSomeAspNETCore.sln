@@ -43,6 +43,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MudBlazorMudPdfViewer", "Mu
 		doc\Blazor\MudBlazorMudPdfViewer\MUDBLAZORMUDPDFREADER.md = doc\Blazor\MudBlazorMudPdfViewer\MUDBLAZORMUDPDFREADER.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Keycloack", "Keycloack", "{31DB8EF2-1917-4B02-BD3D-1296DDE53966}"
+	ProjectSection(SolutionItems) = preProject
+		KEYCLOACK.md = KEYCLOACK.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -76,6 +81,7 @@ Global
 		{764771EF-2976-472A-9B0A-1163DC32BDD9} = {7BF4BE0C-0FCD-48EC-B806-8FF03FE21901}
 		{CA89B365-01A8-41DB-8A66-4F9B3CAD9D95} = {7BF4BE0C-0FCD-48EC-B806-8FF03FE21901}
 		{336E540E-E501-469E-9725-7F5B39F9B24F} = {53774BCD-8095-4AE5-8707-6D52E4CD4F94}
+		{31DB8EF2-1917-4B02-BD3D-1296DDE53966} = {53774BCD-8095-4AE5-8707-6D52E4CD4F94}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {74A532E5-1DD0-4640-B20D-3FDA47DD24A5}
