@@ -1,36 +1,44 @@
-# Learn Some Asp NET Core
- Use Visual Studio Code and .Net 10.0
-
-## Visual Studio Code
- Microsoft Visual Studio Code (64-bit) - Current
- Version 1.104.2
-
-## .Net 6.0
- Microsoft .NET SDK 10.0.*
-
-## Running the code
- Check the gode out
- Open in Visual Studio
-
-## Steps
-
- 1. Create a blank soloution
-    - Folder structure: src and tests
-    ```
-    dotnet new sln -o LearnSomeAspNETCore
-    cd 
-    mkdir doc
-    mkdir src
-    mkdir test
-    ```    
 
 
-## JQuery
-[DataTables](doc/JQuery/DataTables/DATATABLES.md)
+https://fullstackhero.net/
 
-## Blazor
-[Components](doc/Blazor/Components/COMPONETS.md)
+https://github.com/fullstackhero
 
-## Bazor PDF in MudBalzor
-[MudBlazorMudPdfViewer](doc/Blazor/MudBlazorMudPdfViewer/MUDBLAZORMUDPDFVIEWER.md)
+https://codewithmukesh.com/blog/introducing-fullstackhero/
 
+https://vite.dev/guide/
+
+
+
+
+React 19 + Vite
+===============
+
+npm create vite@latest my-react-19-app
+
+cd my-react-19-app
+
+npm install react@latest react-dom@latest
+
+npm install --save-dev @types/react@latest @types/react-dom@latest
+
+npm install
+
+npm install -D @rolldown/plugin-babel
+
+'''
+import { defineConfig } from 'vite'
+import react, { reactCompilerPreset } from '@vitejs/plugin-react'
+import babel from '@rolldown/plugin-babel'
+
+export default defineConfig({
+  plugins: [
+    react(),
+    babel({
+      presets: [reactCompilerPreset()]
+    })
+  ]
+})
+'''
+
+npm run dev
